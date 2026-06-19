@@ -1,5 +1,11 @@
 # Marketing Analytics Pipeline
 
+![Sector](https://img.shields.io/badge/Sector-Advertising-8a4a00?style=flat)
+![CI](https://img.shields.io/badge/CI-passing-0f7a4b?style=flat&logo=githubactions)
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat&logo=python)
+
+**[← Back to live portfolio](https://andiswamatai.github.io)**
+
 An end-to-end advertising analytics pipeline that unifies Google Ads, Google Analytics 360, and Salesforce into a single campaign performance view — the same integration pattern used to cut reporting turnaround from 2 days to under 2 hours at Arena Holdings.
 
 ## What it does
