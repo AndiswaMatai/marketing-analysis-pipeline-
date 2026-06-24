@@ -1,4 +1,4 @@
-# Marketing Analytics Pipeline
+# Unified Marketing Analytics Lakehouse Platform
 
 ![Sector](https://img.shields.io/badge/Sector-Advertising-8a4a00?style=flat)
 ![CI](https://img.shields.io/badge/CI-passing-0f7a4b?style=flat&logo=githubactions)
