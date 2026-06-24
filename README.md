@@ -1,4 +1,4 @@
-# Unified Marketing Analytics Lakehouse Platform
+# 📣 Unified Marketing Analytics Lakehouse Platform
 
 ![Sector](https://img.shields.io/badge/Sector-Advertising-8a4a00?style=flat)
 ![CI](https://img.shields.io/badge/CI-passing-0f7a4b?style=flat&logo=githubactions)
@@ -6,12 +6,45 @@
 
 **[← Back to live portfolio](https://andiswamatai.github.io)**
 
-An end-to-end advertising analytics pipeline that unifies Google Ads, Google Analytics 360, and Salesforce into a single campaign performance view — the same integration pattern used to cut reporting turnaround from 2 days to under 2 hours at Arena Holdings.
+---
 
-## What it does
+## 🚀 Overview
 
-Takes three separate daily extracts that share only `date` and `campaign_id`, joins them, computes the KPIs that actually drive marketing decisions (CTR, CPA, ROAS, conversion rate, churn rate), and produces both an aggregated campaign summary and a visual performance report.
+An end-to-end marketing analytics lakehouse platform that unifies Google Ads, Google Analytics 360, and Salesforce CRM data into a single governed campaign performance model.
 
+This system demonstrates how fragmented marketing data sources can be consolidated into a unified analytics layer to enable consistent, decision-ready KPIs across acquisition, engagement, and retention.
+
+It mirrors a real-world enterprise integration pattern used to reduce marketing reporting cycles from **2 days to under 2 hours** in high-volume media environments.
+
+---
+
+## 🧠 Business Problem
+
+Modern marketing teams operate across multiple disconnected platforms:
+
+- Google Ads for paid acquisition
+- Google Analytics 360 for web behaviour
+- Salesforce for CRM and conversion tracking
+
+This fragmentation results in:
+
+- Inconsistent campaign reporting across platforms
+- Delayed performance visibility for decision-making
+- Difficulty attributing revenue to marketing activity
+- Lack of a single source of truth for campaign performance
+
+---
+## 🧠 Solutions Overview
+
+This platform implements a unified marketing lakehouse that standardises, integrates, and transforms multi-source marketing data into a consistent analytical model.
+
+The system:
+
+- Ingests daily extracts from Google Ads, GA360, and Salesforce
+- Performs schema alignment and campaign-level standardisation
+- Builds a unified dataset across acquisition, engagement, and conversion layers
+- Computes business-critical marketing KPIs
+- Produces analytics-ready outputs for reporting and dashboards
 ## Architecture
 
 ```
